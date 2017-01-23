@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <custom.LetterView
+        android:id="@+id/MainActivity_LetterView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        app:selectColor="@android:color/holo_green_light"
+        app:textSize="16sp"
+        app:textSpace="5dp"
+        app:dWidth="20dp"
+        app:defaultTextColor="@android:color/holo_orange_light"
+        app:touchBgColor="@android:color/holo_orange_light"/>
+
+</RelativeLayout>
+
